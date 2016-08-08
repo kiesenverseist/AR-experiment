@@ -1,0 +1,23 @@
+body{
+  background-color: #333334;
+  color: #eeeeee;
+  font-family: monospace;;
+  font-size: 15px;
+}
+h1{
+  color: #efefef;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15px;
+}
+hr{
+  color: #999999;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.text{
+  padding: 20px;
+}
