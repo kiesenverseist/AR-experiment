@@ -21,3 +21,6 @@ hr{
 .text{
   padding: 20px;
 }
+.toggle{
+  display: none;
+}
