@@ -1,8 +1,10 @@
+/* General Formatting */
 body{
   background-color: #333334;
   color: #eeeeee;
-  font-family: monospace;;
+  font-family: monospace;
   font-size: 15px;
+  padding: 50px;
 }
 h1{
   color: #efefef;
@@ -13,10 +15,52 @@ h1{
 hr{
   color: #999999;
 }
+
+/*menue stuffs */
+.menue ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menue li {
+  float: left;
+}
+.menue li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menue li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #222;
+}
+
+/* Button stuff */
+button{
+  margin: auto;
+  display: block;
+  padding: 10px;
+  background-color: #444444;
+  border: 0px;
+  border-radius: 8px;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+button:hover{
+  background-color: #4f4f4f;
+}
+
+/* class stuffs */
 .center {
     margin: auto;
     width: 50%;
-    padding: 10px;
 }
 .text{
   padding: 20px;
